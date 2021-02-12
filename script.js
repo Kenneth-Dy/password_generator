@@ -17,11 +17,6 @@ document.getElementById('generate').addEventListener('click', () => {
     alert('Length chosen out of accepted range. Password length set to 8.')
   }
 
-  // if(+pwrd_len === NaN){
-  //   pwrd_len = 8
-  //   alert('A number was not inputted. Password length set to 8.')
-  // }
-
   if(upper_case){ char_sheet += upper_char}
   if(lower_case){ char_sheet += lower_char}
   if(numeric){ char_sheet += num_char}
